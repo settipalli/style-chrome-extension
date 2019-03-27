@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700&subset=latin-ext');
+
 body {
-    font-family: Bitter, 'Zilla Slab', 'Source Serif Pro', Helvetica, sans-serif !important;
+    font-family: Bitter, Helvetica, sans-serif !important;
     font-size: 1.1em !important;
     line-height: 2 !important;
 }
