@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Style",
+  "version": "0.9.0",
+  "author": "Santhoshkumar Settipalli",
+  "description": "Set custom style for the elements on the current webpage.",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://*/*", "http://*/*"]
+  }]
+}
