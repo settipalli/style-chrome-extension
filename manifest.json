@@ -6,8 +6,15 @@
   "description": "Set custom style for the elements on the current webpage.",
 
   "content_scripts": [{
-    "css": ["styles.css"],
     "js": ["content.js"],
-    "matches": ["https://*/*", "http://*/*"]
-  }]
+    "matches": ["<all_urls>"]
+  }],
+
+  "browser_action": {},
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "web_accessible_resources": ["styles.css"]
 }
