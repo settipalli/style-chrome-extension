@@ -10,11 +10,20 @@
     "matches": ["<all_urls>"]
   }],
 
-  "browser_action": {},
+  "icons": {
+    "128": "icons/icon_128.png"
+  },
+
+  "browser_action": {
+    "default_title": "Style",
+    "default_icon": "icons/icon_128_disabled.png"
+  },
 
   "background": {
     "scripts": ["background.js"]
   },
 
-  "web_accessible_resources": ["styles.css"]
+  "web_accessible_resources": ["styles.css"],
+
+  "permissions": ["activeTab", "tabs"]
 }
